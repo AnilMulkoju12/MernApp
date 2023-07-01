@@ -1,0 +1,41 @@
+.addProducts{
+    background-color: #F1F3F6;
+    height: 100vh;
+}
+.addbooks-container{
+    display: flex;
+    justify-content: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 30px 20px;
+        margin-top: 60px;
+        border-radius: 10px;
+        div{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    input{
+        // padding: 10px 20px;
+        width: 250px;
+        padding: 10px;
+        margin: 10px;
+        // border-radius: 2px;
+        
+    }
+    &__checkbox{
+        width: 0;
+        padding:0;
+        margin:0;
+    }
+    button{
+        padding: 10px;
+    }
+    button:hover{
+        background-color: rgb(255, 0, 0);
+        color: #fff;
+        border: none;
+    }
+}
